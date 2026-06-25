@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+langgraph
+pydantic
+pypdf
+python-dotenv
+streamlit
+langchain-ollama
