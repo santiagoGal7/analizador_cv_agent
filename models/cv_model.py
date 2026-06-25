@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import List
 
 class AnalisisCV(BaseModel):
-    nombre_candidato: str = Field(description="Nombre completo del candidato extraído de la Hoja de Vida.")
+    nombre_candidato: str = Field(description="Nombre completo del candidato encontrado en la Hoja de Vida.")
     experiencia_anos: int = Field(description="Cantidad total de años de experiencia laboral del candidato.")
     habilidades_clave: List[str] = Field(description="Lista de las principales habilidades técnicas y blandas del perfil.")
     education: str = Field(description="Nivel educativo, títulos obtenidos e instituciones académicas.")

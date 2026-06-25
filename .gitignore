@@ -1,0 +1,28 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache and Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local configuration files
+.env
+
+# Chroma vector database storage directories
+.chroma/
+chroma/
+chromadb/
+
+# Temp uploaded PDFs or cache
+temp_*
+*.pdf
+
+# Operating System files
+.DS_Store
+Thumbs.db
